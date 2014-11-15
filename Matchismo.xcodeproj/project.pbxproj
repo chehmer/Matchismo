@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD6342711A1784F1001F5A60 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6342701A1784F1001F5A60 /* CardMatchingGame.m */; };
 		FDB6CF991A04D80000F4CDE5 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6CF981A04D80000F4CDE5 /* Card.m */; };
 		FDB6CF9D1A04E33500F4CDE5 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6CF9C1A04E33500F4CDE5 /* Deck.m */; };
 		FDB6CFA01A05186F00F4CDE5 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6CF9F1A05186F00F4CDE5 /* PlayingCard.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD63426F1A1784F1001F5A60 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		FD6342701A1784F1001F5A60 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 		FDB6CF971A04D80000F4CDE5 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 		FDB6CF981A04D80000F4CDE5 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
 		FDB6CF9B1A04E33500F4CDE5 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 				FDB6CF9F1A05186F00F4CDE5 /* PlayingCard.m */,
 				FDB6CFA11A0530A200F4CDE5 /* PlayingCardDeck.h */,
 				FDB6CFA21A0530A200F4CDE5 /* PlayingCardDeck.m */,
+				FD63426F1A1784F1001F5A60 /* CardMatchingGame.h */,
+				FD6342701A1784F1001F5A60 /* CardMatchingGame.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 				FDB6CF9D1A04E33500F4CDE5 /* Deck.m in Sources */,
 				FDD7862F1A039AC3003E692B /* ViewController.m in Sources */,
 				FDD7862C1A039AC3003E692B /* AppDelegate.m in Sources */,
+				FD6342711A1784F1001F5A60 /* CardMatchingGame.m in Sources */,
 				FDB6CFA31A0530A200F4CDE5 /* PlayingCardDeck.m in Sources */,
 				FDD786291A039AC3003E692B /* main.m in Sources */,
 				FDB6CF991A04D80000F4CDE5 /* Card.m in Sources */,
